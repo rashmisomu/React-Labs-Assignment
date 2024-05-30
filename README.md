@@ -1,12 +1,11 @@
 # React Application
 
 ## Table of Contents
- 
-  - [About](#about)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Folder Structure](#folder-structure)
 
+- [About](#about)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
 
 ## About
 
@@ -23,25 +22,32 @@ Rich text editor for visualizing and editing text content with formatting option
 To install and set up this project, follow these steps:
 
 1. Clone the repository to your local machine:
+
 ```bash
 git clone <repository-url>
+```
 
 2. Navigate to the project directory:
+
 ```bash
 cd <project-directory>
+```
 
 3.Install dependencies using npm or yarn:
+
 ```bash
 npm install <package-name>
+```
 
 ##Usage
 
 To use this project, follow these steps:
 
 1.After installation, start the development server:
+
 ```bash
 npm start
-
+```
 
 2.Open your web browser and navigate to http://localhost:3000 to view the application.
 
@@ -51,18 +57,17 @@ npm start
 
 src/
 |-- components/
-|   |-- Counter/
-|   |   |-- Counter.js
-|   |   |-- Counter.css
-|   |-- UserDataForm/
-|   |   |-- UserForm.js
-|   |   |-- UserForm.css
-|   |-- RichTextEditor/
-|   |   |-- richTextEditor.js
+| |-- Counter/
+| | |-- Counter.js
+| | |-- Counter.css
+| |-- UserDataForm/
+| | |-- UserForm.js
+| | |-- UserForm.css
+| |-- RichTextEditor/
+| | |-- richTextEditor.js
 |-- App.js
 |-- App.css
 |-- index.js
-
 
 ##Component Structure:
 
