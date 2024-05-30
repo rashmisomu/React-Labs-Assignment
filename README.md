@@ -74,25 +74,25 @@ src/
 
 ## Component Structure:
 
-# App Component:
+**App Component**:
 
 Acts as the root component of the application.
 Renders child components such as Counter, TextEditor, and UserForm.
 Utilizes Material-UI's Grid component for layout organization.
 
-# Counter Component:
+**Counter Component**:
 
 Represents a counter component that increments and decrements a value.
 Appears to be a standalone component with no further nesting.
 
-# RichTextEditor Component:
+**RichTextEditor Component**:
 
 Utilizes React Quill to provide a rich text editor functionality.
 Manages the state of the editor content using React's useState hook.
 Utilizes useEffect hook to handle the persistence of editor content in local storage.
 Implements a grid-based layout with specified width, height, and margin properties.
 
-# UserForm Component:
+**UserForm Component**:
 
 Represents a form component for capturing user data.
 Manages form state using React's useState hook.
@@ -100,7 +100,7 @@ Utilizes Material-UI components for building the form fields and layout.
 Implements form validation to ensure all required fields are filled before submission.
 Handles form submission, persistence of data in local storage, and display of success pop-up.
 
-# EState Management Choice:
+**EState Management Choice**:
 
 useState Hook:
 All components utilize React's useState hook for managing local state.
