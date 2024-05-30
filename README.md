@@ -13,11 +13,11 @@ This project is a React application designed to demonstrate various components a
 
 Main features include:
 
-<pre>
-Counter component with buttons for incrementing, decrementing, and resetting a count.
-User data form for collecting and saving user information, with automatic generation of user IDs.
-Rich text editor for visualizing and editing text content with formatting options like bold, italic, and lists.
-</prev>
+
+- Counter component with buttons for incrementing, decrementing, and resetting a count.
+- User data form for collecting and saving user information, with automatic generation of user IDs.
+- Rich text editor for visualizing and editing text content with formatting options like bold, italic, and lists.
+
 
 ## Installation
 
@@ -34,8 +34,7 @@ git clone <repository-url>
 ```bash
 cd <project-directory>
 ```
-
-3.Install dependencies using npm or yarn:
+3. Install dependencies using npm or yarn:
 
 ```bash
 npm install <package-name>
@@ -45,15 +44,15 @@ npm install <package-name>
 
 To use this project, follow these steps:
 
-1.After installation, start the development server:
+1. After installation, start the development server:
 
 ```bash
 npm start
 ```
 
-2.Open your web browser and navigate to http://localhost:3000 to view the application.
+2. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-3.Explore the different components and functionalities provided by the application.
+3. Explore the different components and functionalities provided by the application.
 
 ## Folder Structure
 <pre>
